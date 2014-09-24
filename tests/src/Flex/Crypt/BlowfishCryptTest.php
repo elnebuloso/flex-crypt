@@ -12,18 +12,18 @@ use Flex\Crypt\BlowfishCrypt;
 class BlowfishCryptTest extends \PHPUnit_Framework_TestCase {
 
     /**
-     * @return void
+     * @test
      * @expectedException \Exception
      * @expectedExceptionMessage wrong key for encryption, use 64 chars, hex
      */
-    public function test_cryptWrongSecret() {
+    public function cryptWrongSecret() {
         new BlowfishCrypt('WrongSecret');
     }
 
     /**
-     * @return void
+     * @test
      */
-    public function test_crypt() {
+    public function crypt() {
         $crypt = new BlowfishCrypt('e7b376817273f9403ce68bec818628b92094960fb1857475d92cce6fbd2cb565');
         $plain = md5(uniqid());
         $encrypted = $crypt->encrypt($plain);
