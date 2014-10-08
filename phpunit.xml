@@ -11,10 +11,6 @@
         <whitelist>
             <directory>./</directory>
             <exclude>
-                <directory>./application</directory>
-                <directory>./application-demo</directory>
-                <directory>./bin</directory>
-                <directory>./public</directory>
                 <directory>./tests</directory>
                 <directory>./vendor</directory>
             </exclude>
