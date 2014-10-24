@@ -4,7 +4,6 @@ namespace Flex\Crypt;
 /**
  * Class BlowfishCrypt
  *
- * @package Flex\Crypt
  * @author Jeff Tunessen <jeff.tunessen@gmail.com>
  */
 class BlowfishCrypt extends AbstractCrypt implements CryptInteface {

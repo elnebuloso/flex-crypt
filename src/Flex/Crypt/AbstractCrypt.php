@@ -6,7 +6,6 @@ use Exception;
 /**
  * Class AbstractCrypt
  *
- * @package Flex\Crypt
  * @author Jeff Tunessen <jeff.tunessen@gmail.com>
  */
 abstract class AbstractCrypt implements CryptInteface {

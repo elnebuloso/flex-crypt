@@ -4,7 +4,6 @@ namespace Flex\Crypt\KeyGenerator;
 /**
  * Class OpenSSLGenerator
  *
- * @package Flex\Crypt\KeyGenerator
  * @author Jeff Tunessen <jeff.tunessen@gmail.com>
  */
 class OpenSSLGenerator extends AbstractGenerator implements KeyGeneratorInterface {

@@ -4,7 +4,6 @@ namespace Flex\Crypt;
 /**
  * Class CryptInteface
  *
- * @package Flex\Crypt
  * @author Jeff Tunessen <jeff.tunessen@gmail.com>
  */
 interface CryptInteface {

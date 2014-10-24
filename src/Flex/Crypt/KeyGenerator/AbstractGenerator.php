@@ -6,7 +6,6 @@ use Exception;
 /**
  * Class AbstractGenerator
  *
- * @package Flex\Crypt\KeyGenerator
  * @author Jeff Tunessen <jeff.tunessen@gmail.com>
  */
 abstract class AbstractGenerator implements KeyGeneratorInterface {
