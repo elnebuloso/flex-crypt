@@ -6,7 +6,6 @@ use Flex\Crypt\Rijandel256Crypt;
 /**
  * Class Rijandel256CryptTest
  *
- * @package FlexTest\Crypt
  * @author Jeff Tunessen <jeff.tunessen@gmail.com>
  */
 class Rijandel256CryptTest extends \PHPUnit_Framework_TestCase {

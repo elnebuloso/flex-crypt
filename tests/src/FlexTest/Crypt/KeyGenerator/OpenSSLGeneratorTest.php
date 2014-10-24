@@ -6,7 +6,6 @@ use Flex\Crypt\KeyGenerator\OpenSSLGenerator;
 /**
  * Class OpenSSLGeneratorTest
  *
- * @package FlexTest\Crypt\KeyGenerator
  * @author Jeff Tunessen <jeff.tunessen@gmail.com>
  */
 class OpenSSLGeneratorTest extends \PHPUnit_Framework_TestCase {

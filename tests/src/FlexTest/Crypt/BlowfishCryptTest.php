@@ -6,7 +6,6 @@ use Flex\Crypt\BlowfishCrypt;
 /**
  * Class BlowfishCryptTest
  *
- * @package FlexTest\Crypt
  * @author Jeff Tunessen <jeff.tunessen@gmail.com>
  */
 class BlowfishCryptTest extends \PHPUnit_Framework_TestCase {
