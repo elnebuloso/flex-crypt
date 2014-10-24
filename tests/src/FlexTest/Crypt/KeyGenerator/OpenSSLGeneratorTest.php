@@ -13,7 +13,7 @@ class OpenSSLGeneratorTest extends \PHPUnit_Framework_TestCase {
     /**
      * @test
      */
-    public function generate() {
+    public function test_generate() {
         $key = new OpenSSLGenerator();
         $key = $key->generate(1024);
 
@@ -24,7 +24,7 @@ class OpenSSLGeneratorTest extends \PHPUnit_Framework_TestCase {
      * @test
      * @expectedException \Exception
      */
-    public function generateWithException() {
+    public function test_generateWithException() {
         $key = new OpenSSLGenerator();
         $key = $key->generate(53);
     }
