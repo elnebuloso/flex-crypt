@@ -6,7 +6,8 @@ namespace Flex\Crypt\KeyGenerator;
  *
  * @author Jeff Tunessen <jeff.tunessen@gmail.com>
  */
-interface KeyGeneratorInterface {
+interface KeyGeneratorInterface
+{
 
     /**
      * @param int $bytes

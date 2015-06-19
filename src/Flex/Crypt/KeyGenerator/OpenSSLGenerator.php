@@ -6,13 +6,15 @@ namespace Flex\Crypt\KeyGenerator;
  *
  * @author Jeff Tunessen <jeff.tunessen@gmail.com>
  */
-class OpenSSLGenerator extends AbstractGenerator implements KeyGeneratorInterface {
+class OpenSSLGenerator extends AbstractGenerator implements KeyGeneratorInterface
+{
 
     /**
      * @param int $bytes
      * @return string
      */
-    public function generate($bytes) {
+    public function generate($bytes)
+    {
         $bytes = parent::validateBytes($bytes);
 
         $bin = openssl_random_pseudo_bytes($bytes, $cstrong);

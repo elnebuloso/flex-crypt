@@ -6,7 +6,8 @@ namespace Flex\Crypt;
  *
  * @author Jeff Tunessen <jeff.tunessen@gmail.com>
  */
-interface CryptInteface {
+interface CryptInteface
+{
 
     /**
      * @param string $plaintext

@@ -6,7 +6,8 @@ namespace Flex\Crypt;
  *
  * @author Jeff Tunessen <jeff.tunessen@gmail.com>
  */
-class Rijandel256Crypt extends AbstractCrypt implements CryptInteface {
+class Rijandel256Crypt extends AbstractCrypt implements CryptInteface
+{
 
     /**
      * @var string

@@ -8,7 +8,8 @@ use Exception;
  *
  * @author Jeff Tunessen <jeff.tunessen@gmail.com>
  */
-abstract class AbstractCrypt implements CryptInteface {
+abstract class AbstractCrypt implements CryptInteface
+{
 
     /**
      * @var string
@@ -39,8 +40,9 @@ abstract class AbstractCrypt implements CryptInteface {
      * @param string $key
      * @throws Exception
      */
-    public function __construct($key) {
-        if(!preg_match("/^[a-f0-9]{" . $this->keyLength . "}$/", $key)) {
+    public function __construct($key)
+    {
+        if (!preg_match("/^[a-f0-9]{" . $this->keyLength . "}$/", $key)) {
             throw new Exception('wrong key for encryption, use 64 chars, hex');
         }
 
@@ -52,7 +54,8 @@ abstract class AbstractCrypt implements CryptInteface {
      * @param string $plaintext
      * @return string
      */
-    public function encrypt($plaintext) {
+    public function encrypt($plaintext)
+    {
         $iv = mcrypt_create_iv($this->size, MCRYPT_RAND);
         $encryptedText = mcrypt_encrypt($this->cypher, $this->key, $plaintext, $this->mode, $iv);
 
@@ -63,7 +66,8 @@ abstract class AbstractCrypt implements CryptInteface {
      * @param string $encryptedText
      * @return string
      */
-    public function decrypt($encryptedText) {
+    public function decrypt($encryptedText)
+    {
         $encryptedTextDecoded = base64_decode($encryptedText);
         $ivDecoded = substr($encryptedTextDecoded, 0, $this->size);
         $encryptedTextDecoded = substr($encryptedTextDecoded, $this->size);

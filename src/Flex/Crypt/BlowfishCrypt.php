@@ -6,7 +6,8 @@ namespace Flex\Crypt;
  *
  * @author Jeff Tunessen <jeff.tunessen@gmail.com>
  */
-class BlowfishCrypt extends AbstractCrypt implements CryptInteface {
+class BlowfishCrypt extends AbstractCrypt implements CryptInteface
+{
 
     /**
      * @var string
