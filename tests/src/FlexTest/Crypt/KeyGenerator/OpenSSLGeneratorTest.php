@@ -8,12 +8,14 @@ use Flex\Crypt\KeyGenerator\OpenSSLGenerator;
  *
  * @author Jeff Tunessen <jeff.tunessen@gmail.com>
  */
-class OpenSSLGeneratorTest extends \PHPUnit_Framework_TestCase {
+class OpenSSLGeneratorTest extends \PHPUnit_Framework_TestCase
+{
 
     /**
      * @test
      */
-    public function test_generate() {
+    public function testGenerate()
+    {
         $key = new OpenSSLGenerator();
         $key = $key->generate(1024);
 
@@ -24,8 +26,9 @@ class OpenSSLGeneratorTest extends \PHPUnit_Framework_TestCase {
      * @test
      * @expectedException \Exception
      */
-    public function test_generateWithException() {
+    public function testGenerateWithException()
+    {
         $key = new OpenSSLGenerator();
-        $key = $key->generate(53);
+        $key->generate(53);
     }
 }
