@@ -10,7 +10,6 @@ use Flex\Crypt\BlowfishCrypt;
  */
 class BlowfishCryptTest extends \PHPUnit_Framework_TestCase
 {
-
     /**
      * @test
      * @expectedException \Exception

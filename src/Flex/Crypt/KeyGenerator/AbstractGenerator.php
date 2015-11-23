@@ -10,7 +10,6 @@ use Exception;
  */
 abstract class AbstractGenerator implements KeyGeneratorInterface
 {
-
     /**
      * @param int $bytes
      * @return int

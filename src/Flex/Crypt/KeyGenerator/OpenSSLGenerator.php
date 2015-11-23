@@ -8,7 +8,6 @@ namespace Flex\Crypt\KeyGenerator;
  */
 class OpenSSLGenerator extends AbstractGenerator implements KeyGeneratorInterface
 {
-
     /**
      * @param int $bytes
      * @return string

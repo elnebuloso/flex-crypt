@@ -10,7 +10,6 @@ use Exception;
  */
 abstract class AbstractCrypt implements CryptInteface
 {
-
     /**
      * @var string
      */

@@ -8,7 +8,6 @@ namespace Flex\Crypt;
  */
 class Rijandel256Crypt extends AbstractCrypt implements CryptInteface
 {
-
     /**
      * @var string
      */

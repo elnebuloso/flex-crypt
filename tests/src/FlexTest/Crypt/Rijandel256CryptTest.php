@@ -10,7 +10,6 @@ use Flex\Crypt\Rijandel256Crypt;
  */
 class Rijandel256CryptTest extends \PHPUnit_Framework_TestCase
 {
-
     /**
      * @test
      * @expectedException \Exception

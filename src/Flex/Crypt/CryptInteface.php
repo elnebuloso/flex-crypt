@@ -8,7 +8,6 @@ namespace Flex\Crypt;
  */
 interface CryptInteface
 {
-
     /**
      * @param string $plaintext
      */

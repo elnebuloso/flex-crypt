@@ -8,7 +8,6 @@ namespace Flex\Crypt;
  */
 class BlowfishCrypt extends AbstractCrypt implements CryptInteface
 {
-
     /**
      * @var string
      */

@@ -10,7 +10,6 @@ use Flex\Crypt\KeyGenerator\OpenSSLGenerator;
  */
 class OpenSSLGeneratorTest extends \PHPUnit_Framework_TestCase
 {
-
     /**
      * @test
      */

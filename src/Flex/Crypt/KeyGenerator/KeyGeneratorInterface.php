@@ -8,7 +8,6 @@ namespace Flex\Crypt\KeyGenerator;
  */
 interface KeyGeneratorInterface
 {
-
     /**
      * @param int $bytes
      * @return string
