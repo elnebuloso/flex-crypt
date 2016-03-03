@@ -1,6 +1,7 @@
 # flex-crypt
 
 [![Build Status](https://travis-ci.org/elnebuloso/flex-crypt.svg?branch=master)](https://travis-ci.org/elnebuloso/flex-crypt)
+[![Coverage Status](https://coveralls.io/repos/github/elnebuloso/flex-crypt/badge.svg?branch=master)](https://coveralls.io/github/elnebuloso/flex-crypt?branch=master)
 
 ## Requirements
 
