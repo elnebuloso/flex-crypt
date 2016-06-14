@@ -1,5 +1,5 @@
 <?php
-namespace Flex\Crypt;
+namespace elnebuloso\Flex\Crypt;
 
 use Exception;
 

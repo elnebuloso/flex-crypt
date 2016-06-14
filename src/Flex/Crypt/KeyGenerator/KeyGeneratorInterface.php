@@ -1,5 +1,5 @@
 <?php
-namespace Flex\Crypt\KeyGenerator;
+namespace elnebuloso\Flex\Crypt\KeyGenerator;
 
 /**
  * Class KeyGeneratorInterface

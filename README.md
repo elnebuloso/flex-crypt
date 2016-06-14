@@ -24,7 +24,7 @@ Via Composer
 ``` json
 {
     "require": {
-        "elnebuloso/flex-crypt": "~3.0"
+        "elnebuloso/flex-crypt": "~4.0"
     }
 }
 ```

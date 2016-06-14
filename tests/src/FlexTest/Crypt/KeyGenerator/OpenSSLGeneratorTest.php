@@ -1,7 +1,7 @@
 <?php
-namespace FlexTest\Crypt\KeyGenerator;
+namespace elnebuloso\FlexTest\Crypt\KeyGenerator;
 
-use Flex\Crypt\KeyGenerator\OpenSSLGenerator;
+use elnebuloso\Flex\Crypt\KeyGenerator\OpenSSLGenerator;
 
 /**
  * Class OpenSSLGeneratorTest

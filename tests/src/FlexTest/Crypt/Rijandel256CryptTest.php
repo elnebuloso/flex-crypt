@@ -1,7 +1,7 @@
 <?php
-namespace FlexTest\Crypt;
+namespace elnebuloso\FlexTest\Crypt;
 
-use Flex\Crypt\Rijandel256Crypt;
+use elnebuloso\Flex\Crypt\Rijandel256Crypt;
 
 /**
  * Class Rijandel256CryptTest

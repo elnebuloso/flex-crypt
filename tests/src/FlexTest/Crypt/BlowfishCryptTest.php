@@ -1,7 +1,7 @@
 <?php
-namespace FlexTest\Crypt;
+namespace elnebuloso\FlexTest\Crypt;
 
-use Flex\Crypt\BlowfishCrypt;
+use elnebuloso\Flex\Crypt\BlowfishCrypt;
 
 /**
  * Class BlowfishCryptTest
